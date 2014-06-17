@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+  <form action="/auth/login/" method="post">
+    User: <input type="text" name="login" /><br/>
+    Password: <input type="password" name="password" /><br/>
+    <input type="hidden" name="next" value="{{next}}" />
+    <input type="submit" />
+  </form>
+</body>
+</html>
